@@ -1,0 +1,33 @@
+RewriteEngine On
+
+RewriteRule ^processing_about$ /admin/pages/about/processing_about.php [L]
+RewriteRule ^opinion_list$ /admin/pages/about/opinion_list.php [L]
+
+RewriteRule ^portfolio_list$ /admin/pages/portfolio/portfolio_list.php [L]
+RewriteRule ^processing_portfolio$ /admin/pages/portfolio/processing_portfolio.php [L]
+
+RewriteRule ^processing_resume$ /admin/pages/resume/processing_resume.php [L]
+RewriteRule ^design_list$ /admin/pages/resume/design_list.php [L]
+RewriteRule ^language_list$ /admin/pages/resume/language_list.php [L]
+RewriteRule ^services_list$ /admin/pages/resume/services_list.php [L]
+RewriteRule ^software_list$ /admin/pages/resume/software_list.php [L]
+
+RewriteRule ^admin/resume$ /admin/pages/resume/resume.php [L]
+RewriteRule ^admin/about_me$ /admin/pages/about/about_me.php [L]
+RewriteRule ^admin/portfolio$ /admin/pages/portfolio/portofolio.php [L]
+
+RewriteRule ^admin/setting$ /admin/pages/setting/setting.php [L]
+RewriteRule ^processing_setting$ /admin/pages/setting/processing_setting.php [L]
+
+RewriteRule ^admin/login$ /admin/pages/login/login.php [L]
+RewriteRule ^admin/register$ /admin/pages/register/register.php [L]
+RewriteRule ^admin/logout$ /admin/pages/login/logout.php [L]
+RewriteRule ^processing_register$ /admin/pages/register/processing_register.php [L]
+RewriteRule ^processing_login$ /admin/pages/login/processing_login.php [L]
+
+RewriteRule ^resume$ /resume.php [L]
+RewriteRule ^portfolio$ /portofolio.php [L]
+RewriteRule ^about$ /about_me.php [L]
+RewriteRule ^contact$ /contact.php [L]
+
+
